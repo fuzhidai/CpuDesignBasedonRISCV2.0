@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"test_cup_top_func_synth.v" \
+"../../../../../single-cycle-CPU.srcs/sources_1/new/data_mem.v" \
+"../../../../../single-cycle-CPU.srcs/sources_1/new/id.v" \
+"../../../../../single-cycle-CPU.srcs/sources_1/new/ie.v" \
+"../../../../../single-cycle-CPU.srcs/sources_1/new/inst_rom.v" \
+"../../../../../single-cycle-CPU.srcs/sources_1/new/mux_PcOrBusA.v" \
+"../../../../../single-cycle-CPU.srcs/sources_1/new/mux_alu_asrc.v" \
+"../../../../../single-cycle-CPU.srcs/sources_1/new/mux_alu_bsrc.v" \
+"../../../../../single-cycle-CPU.srcs/sources_1/new/mux_memto_reg.v" \
+"../../../../../single-cycle-CPU.srcs/sources_1/new/mux_store.v" \
+"../../../../../single-cycle-CPU.srcs/sources_1/new/next_pc.v" \
+"../../../../../single-cycle-CPU.srcs/sources_1/new/pc_reg.v" \
+"../../../../../single-cycle-CPU.srcs/sources_1/new/reg_file.v" \
+"../../../../../single-cycle-CPU.srcs/sim_1/new/test_cpu_top.v" \
+
+# Do not sort compile order
+nosort
