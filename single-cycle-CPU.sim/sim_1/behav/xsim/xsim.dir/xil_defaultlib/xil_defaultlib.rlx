@@ -19,4 +19,4 @@ D:/single-cycle-CPU/single-cycle-CPU.srcs/sources_1/new/mux_memto_reg.v,15762096
 D:/single-cycle-CPU/single-cycle-CPU.srcs/sources_1/new/mux_store.v,1576209612,verilog,,D:/single-cycle-CPU/single-cycle-CPU.srcs/sources_1/new/next_pc.v,,mux_store,,,,,,,,
 D:/single-cycle-CPU/single-cycle-CPU.srcs/sources_1/new/next_pc.v,1576316309,verilog,,D:/single-cycle-CPU/single-cycle-CPU.srcs/sources_1/new/pc_reg.v,,next_pc,,,,,,,,
 D:/single-cycle-CPU/single-cycle-CPU.srcs/sources_1/new/pc_reg.v,1576318677,verilog,,D:/single-cycle-CPU/single-cycle-CPU.srcs/sources_1/new/reg_file.v,,pc_reg,,,,,,,,
-D:/single-cycle-CPU/single-cycle-CPU.srcs/sources_1/new/reg_file.v,1576324395,verilog,,D:/single-cycle-CPU/single-cycle-CPU.srcs/sim_1/new/test_cpu_top.v,,reg_file,,,,,,,,
+D:/single-cycle-CPU/single-cycle-CPU.srcs/sources_1/new/reg_file.v,1576380301,verilog,,D:/single-cycle-CPU/single-cycle-CPU.srcs/sim_1/new/test_cpu_top.v,,reg_file,,,,,,,,

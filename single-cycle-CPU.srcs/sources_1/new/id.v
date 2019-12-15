@@ -95,6 +95,7 @@ module id(
             // 多值控制信号
             alu_bsrc_o[1]<= (~op[6] & ~op[5] & op[4]&~op[3] & ~op[2] & op[1] & op[0])   // I-type-ALU
                            | (~op[6]&op[5]&op[4]&~op[3]&op[2]&op[1]&op[0])              // lui
+                           | (~op[6]&~op[5]&op[4]&~op[3]&op[2]&op[1]&op[0])             // auipc
                            | (~op[6]&~op[5]&~op[4]&~op[3]&~op[2]&op[1]&op[0])           // Load
                            | (~op[6]&op[5]&~op[4]&~op[3]&~op[2]&op[1]&op[0]);           // Store
             alu_bsrc_o[0]<= (op[6] & op[5] & ~op[4] & op[3] & op[2] & op[1] & op[0])    

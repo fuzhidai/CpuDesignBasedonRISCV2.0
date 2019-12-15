@@ -41,6 +41,7 @@ module test_cup_top;
     wire [31:0]      bus_a;          
     wire [31:0]      bus_b;     
     wire [31:0]      bus_b_o;
+    wire [31:0]      bus_a_o;
     wire [31:0]      bus_bi;   // alu_bsrc result.
     wire [31:0]      bus_ai;   // alu_asrc result. 
     wire [31:0]      bus_wo;   // mem_to_reg result.      
@@ -52,7 +53,6 @@ module test_cup_top;
     wire  mem_wr;       // Mem
     wire  alu_asrc;     // Reg to ALU
     wire  muxpc_busa;
-    wire  result_o;
     
     // 多值控制信号
     wire [1:0] alu_bsrc;   // imm and Reg to ALU
@@ -60,7 +60,7 @@ module test_cup_top;
     wire [5:0] alu_ctr;    // ALU
     wire [1:0] mux_store_o; // 数据存储器输入多路选择器控制
     wire [1:0] branch;      // pc
-    wire[2:0]  mem_to_reg;   // ALU to Reg
+    wire [2:0] mem_to_reg;   // ALU to Reg
 
 
     initial begin
@@ -107,10 +107,10 @@ module test_cup_top;
     
     // 下地址逻辑
     next_pc next_pc0(
-        .pcOrbusa(cur_pc),
+        .pcOrbusa(bus_a_o),
         .imm(imm),
         .branch(branch),
-        .result_o(result_o),
+        .result_o(bus_w[0]),
         .zero(zero),
         .jump(jump),
         .next_pc(next_pc)
@@ -157,7 +157,7 @@ module test_cup_top;
         .clk(clk),
         
         .addr(bus_w),      // 写入地址
-        .data_in(bus_b),   // 写入数据
+        .data_in(bus_b_o),   // 写入数据
         .mem_wr(mem_wr),    // 写使能
             
         .data_out(data_out)  // 写出数据
@@ -205,13 +205,13 @@ module test_cup_top;
         .bus_w_o(bus_wo)            // 多路选择器输出
         );
         
-        
+    // 下地址指令存储器侧端口选择器
 	mux_PcOrBusA mux_PcOrBusA0(
         .bus_a(bus_a),
         .pc(cur_pc),
         .mux_pcBusa(muxpc_busa),
             
-        .bus_b_o(bus_b_o)
+        .bus_a_o(bus_a_o)
         );
 
 endmodule

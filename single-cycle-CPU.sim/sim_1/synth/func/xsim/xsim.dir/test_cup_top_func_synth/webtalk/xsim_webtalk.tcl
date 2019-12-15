@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir D:/single-cycle-CPU/single-cycle-CPU.sim/sim_1/synth/func/xsim/xsim.dir/test_cup_top_func_synth/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Sat Dec 14 21:06:07 2019" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Sun Dec 15 20:15:18 2019" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2017.4 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2086221" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "27579dd0-222f-44c7-b018-3bb3016b152d" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "f1f2738cdbc5481687cebe2b8e748b7d" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "35" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "127" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Microsoft Windows 8 or later , 64-bit" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz" -context "user_environment"
@@ -30,13 +30,13 @@ webtalk_add_data -client xsim -key SDFModeling -value "false" -context "xsim\\co
 webtalk_add_data -client xsim -key HWCosim -value "false" -context "xsim\\command_line_options"
 webtalk_add_data -client xsim -key DPI_Used -value "false" -context "xsim\\command_line_options"
 webtalk_add_data -client xsim -key Debug -value "typical" -context "xsim\\command_line_options"
-webtalk_add_data -client xsim -key Simulation_Image_Code -value "489 KB" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Image_Code -value "491 KB" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Simulation_Image_Data -value "194 KB" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Nets -value "0" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Processes -value "2836" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Instances -value "679" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Xilinx_HDL_Libraries_Used -value "secureip unisims_ver " -context "xsim\\usage"
 webtalk_add_data -client xsim -key Compiler_Time -value "2.36_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Memory -value "134484_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 2321064498 -regid "" -xml D:/single-cycle-CPU/single-cycle-CPU.sim/sim_1/synth/func/xsim/xsim.dir/test_cup_top_func_synth/webtalk/usage_statistics_ext_xsim.xml -html D:/single-cycle-CPU/single-cycle-CPU.sim/sim_1/synth/func/xsim/xsim.dir/test_cup_top_func_synth/webtalk/usage_statistics_ext_xsim.html -wdm D:/single-cycle-CPU/single-cycle-CPU.sim/sim_1/synth/func/xsim/xsim.dir/test_cup_top_func_synth/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Compiler_Memory -value "135384_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 1386352489 -regid "" -xml D:/single-cycle-CPU/single-cycle-CPU.sim/sim_1/synth/func/xsim/xsim.dir/test_cup_top_func_synth/webtalk/usage_statistics_ext_xsim.xml -html D:/single-cycle-CPU/single-cycle-CPU.sim/sim_1/synth/func/xsim/xsim.dir/test_cup_top_func_synth/webtalk/usage_statistics_ext_xsim.html -wdm D:/single-cycle-CPU/single-cycle-CPU.sim/sim_1/synth/func/xsim/xsim.dir/test_cup_top_func_synth/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

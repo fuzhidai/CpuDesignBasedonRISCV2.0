@@ -25,15 +25,15 @@ module mux_PcOrBusA(
 	input [31:0]    pc,
 	input			mux_pcBusa,
 	
-	output reg[31:0]bus_b_o
+	output reg[31:0]bus_a_o
     );
 	always @ (*) begin
 
 	    if(mux_pcBusa)begin       //  选择BusA与立即数相加
-            bus_b_o <= bus_a;
+            bus_a_o <= bus_a;
 	    end
         else begin                  //  选择pc与立即数相加
-            bus_b_o <= pc;
+            bus_a_o <= pc;
         end
 	end
 endmodule

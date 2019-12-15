@@ -2,7 +2,7 @@
 2017.4
 Dec 15 2017
 21:07:18
-D:/single-cycle-CPU/single-cycle-CPU.sim/sim_1/synth/func/xsim/test_cup_top_func_synth.v,1576328762,verilog,,D:/single-cycle-CPU/single-cycle-CPU.srcs/sources_1/new/data_mem.v,,alu;alu_top;glbl,,,,,,,,
+D:/single-cycle-CPU/single-cycle-CPU.sim/sim_1/synth/func/xsim/test_cup_top_func_synth.v,1576412113,verilog,,D:/single-cycle-CPU/single-cycle-CPU.srcs/sources_1/new/data_mem.v,,alu;alu_top;glbl,,,,,,,,
 D:/single-cycle-CPU/single-cycle-CPU.srcs/sim_1/new/test_cpu_top.v,1576294515,verilog,,,,test_cup_top,,,,,,,,
 D:/single-cycle-CPU/single-cycle-CPU.srcs/sources_1/new/data_mem.v,1576294877,verilog,,D:/single-cycle-CPU/single-cycle-CPU.srcs/sources_1/new/id.v,,data_mem,,,,,,,,
 D:/single-cycle-CPU/single-cycle-CPU.srcs/sources_1/new/id.v,1576034964,verilog,,D:/single-cycle-CPU/single-cycle-CPU.srcs/sources_1/new/ie.v,,id,,,,,,,,
